@@ -1,0 +1,32 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+	width: 800px;
+	margin-bottom: 0;
+	margin-top: 0;
+	margin-left: auto;
+	margin-right: auto;
+	/* border: 3px solid #070776; */
+	background-color: #c8a2c8;
+}
+
+#nav_menu ul {
+	color: #e6e6fa;
+	list-style: none;
+	margin: 0 0;
+	padding: 0 0;
+	position: relative;
+	
+}
+
+footer p {
+	text-align: center;
+	color: black;
+	padding-bottom: 1em;
+	padding-top: 1em;
+}
+
+footer {
+	background-color: #e6e6fa;
+	clear: both;
+}
