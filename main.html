@@ -1,22 +1,64 @@
+<!-- Devloper: Vaidehi Patel, IS117-006, spring 2024 -->
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=S, initial-scale=1.0" />
-    <title>Vaidehi's Portfolio</title>
-    <link rel="stylesheet" href="styles/main.css" />
-  </head>
-  <body>
-    <nav>
-      <ul>
-        <li><a href="#AboutMe">About Me</a></li>
-        <li><a href="#Projects">Projects</a></li>
-        <li><a href="#Resume">Resume</a></li>
-        <li><a herf="#Contect Me">Contect Me</a></li>
-      </ul>
-    </nav>
-    <footer>
-        <div> Copyright &copy; 2024 All rights resserved by Vaidehi Patel &nbsp;</div>
+
+<head>
+  <meta charset="UTF-8">
+  <title>My Home page</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="styles/main.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    col-12 col-md-12">
+
+        <!-- Brand -->
+        <a class="navbar-brand" href="#">VP</a>
+        <!-- Responsive Button for the smaller menu -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <!-- Links -->
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <footer class="footer page-footer font-small ">
+      <div class="container">
+        <div class="row">
+          <span class="text-muted">&copy; Vaidehi Patel, 2024 | Terms Of Use | Privacy Statement</span>
+        </div>
+      </div>
     </footer>
-  </body>
+  </div>
+
+
+  <!-- Javascript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
+
+</body>
+
 </html>
