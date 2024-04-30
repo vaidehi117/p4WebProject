@@ -29,6 +29,17 @@ body {
 	height: auto;
 }
 
+.card-img {
+	display: inline;
+	height: 40px;
+	width: 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	font-weight: bolder;
+}
+
 .card:hover {
 	box-shadow: 20px 20px 20px 20px rgba(110, 137, 246, 0.2);
 	transition: all 0.2s ease;
