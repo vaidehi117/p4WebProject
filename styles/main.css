@@ -1,10 +1,11 @@
 /* Developer: Vaidehi Patel, IS117-006, spring 2024 */
-body{
+body {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 100%;
 	width: 800px;
-	margin: 0 auto; 
-	background-color: #ffb1ff;
+	margin: 0 auto;
+	background-color: rgb(209, 209, 255);
+	background-image: radial-gradient(rgb(209, 209, 255), rgb(255, 255, 255));
 }
 
 #nav_menu ul {
@@ -25,22 +26,27 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-  }
+}
 
-  .image-container img {
+.image-container img {
 	max-width: 80%;
 	max-height: 80%;
-  }
+}
+
+.card:hover {
+	box-shadow: 20px 20px 20px 20px rgba(110, 137, 246, 0.2);
+	transition: all 0.2s ease;
+}
 
 footer p {
 	text-align: center;
 	color: black;
 	margin-top: 10px;
-	padding: 1em 0; 
+	padding: 1em 0;
 }
 
 footer {
-	background-color: #e6e6fa;
+	background-color: #bbbbff;
 	clear: both;
-	margin-top: 20px; 
+	margin-top: 20px;
 }
