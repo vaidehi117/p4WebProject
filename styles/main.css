@@ -1,70 +1,114 @@
 /* Developer: Vaidehi Patel, IS117-006, spring 2024 */
 body {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 100%;
-	margin: 0 auto;
-	background-color: rgb(160, 160, 255);
-	background-image: radial-gradient(rgb(160, 160, 255), rgb(255, 255, 255));
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  margin: 0 auto;
+  background-color: rgb(160, 160, 255);
+  background-image: radial-gradient(rgb(160, 160, 255), rgb(255, 255, 255));
 }
 
 #nav_menu ul {
-	background-color: #a9a9f3;
-	color: black;
-	list-style: none;
-	margin-bottom: 20px;
-	padding: 10px;
-	position: static;
-	float: left;
+  background-color: #a9a9f3;
+  color: black;
+  list-style: none;
+  margin-bottom: 20px;
+  padding: 10px;
+  position: static;
+  float: left;
+}
+
+.newnavbar {
+  float: right;
 }
 
 .card {
-	max-width: 500px;
-	margin-top: 10px;
-	margin-right: 10px;
-    margin-bottom: 10px;
+  max-width: 500px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 .card-img-top {
-	width: 100%;
-	height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .card-title {
-	text-decoration: underline;
-	font-weight: bolder;
+  text-decoration: underline;
+  font-weight: bolder;
 }
 
 .card-img {
-	display: inline;
-	height: 40px;
-	width: 40px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	margin-right: 10px;
-	margin-left: 10px;
-	font-weight: bolder;
+  display: inline;
+  height: 40px;
+  width: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-weight: bolder;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #a9a9f3;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
 }
 
 .card:hover {
-	box-shadow: 10px 10px 10px 10px lightgrey;
-	transition: all 0.2s ease;
+  box-shadow: 10px 10px 10px 10px rgb(255, 255, 255);
+  transition: all 0.2s ease;
 }
 
 .form {
-	margin-top: 10px;
-	margin-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.button {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 footer p {
-	position: fixed;
-	text-align: center;
-	color: black;
-	margin-top: 10px;
-	padding: 1em 0;
+  position: fixed;
+  text-align: center;
+  color: black;
+  margin-top: 10px;
+  padding: 1em 0;
 }
 
 footer {
-	background-color: #bbbbff;
-	clear: both;
-	margin-top: 20px;
+  background-color: #bbbbff;
+  clear: both;
+  margin-top: 20px;
 }
