@@ -2,10 +2,9 @@
 body {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 100%;
-	/* width: 800px; */
 	margin: 0 auto;
-	background-color: rgb(209, 209, 255);
-	background-image: radial-gradient(rgb(209, 209, 255), rgb(255, 255, 255));
+	background-color: rgb(160, 160, 255);
+	background-image: radial-gradient(rgb(160, 160, 255), rgb(255, 255, 255));
 }
 
 #nav_menu ul {
@@ -20,6 +19,7 @@ body {
 
 .card {
 	max-width: 500px;
+	margin-top: 10px;
 	margin-right: 10px;
     margin-bottom: 10px;
 }
@@ -27,6 +27,11 @@ body {
 .card-img-top {
 	width: 100%;
 	height: auto;
+}
+
+.card-title {
+	text-decoration: underline;
+	font-weight: bolder;
 }
 
 .card-img {
@@ -41,11 +46,17 @@ body {
 }
 
 .card:hover {
-	box-shadow: 20px 20px 20px 20px rgba(110, 137, 246, 0.2);
+	box-shadow: 10px 10px 10px 10px lightgrey;
 	transition: all 0.2s ease;
 }
 
+.form {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
 footer p {
+	position: fixed;
 	text-align: center;
 	color: black;
 	margin-top: 10px;
